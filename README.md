@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 # Usage
 
-python gpspicture.py -T <type select> /path/to/pictures
+python gpspicture.py -T type_map /path/to/pictures
   
   
 #  License
