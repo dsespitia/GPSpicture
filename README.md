@@ -11,7 +11,7 @@ It is mandatory to have a Google API ID, which allows using the GMaps static.
 
 To run the GPSpicture you need python 3.6 and some python libraries. You can install this with:
 
-cd gpspicture/
+cd gpspicture
 pip install -r requirements.txt
 
 # Usage
