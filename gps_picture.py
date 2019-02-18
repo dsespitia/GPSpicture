@@ -29,7 +29,7 @@ def search(path):
                     b = f.read(log)
                     if b == tipo:
                         lista.append(vict)
-    return lista
+    return(lista)
 
 
 # Create maps using API Google Map
