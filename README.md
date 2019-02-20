@@ -1,8 +1,8 @@
 # GPSpicture
 
-GPSpicture is a script written un Python that allow you get ubication data and showing into map. In order for the script to perform its work, it is mandatory that the images contain the GPSinfo field within the metadata. However, if the script doesn't contain information on the non-existence of this information.
+GPSpicture is a script written in Python that allows you to obtain geolocation data of several images and then display this information on a map. For the script to work, it is mandatory that the images contain the GPSinfo field within the metadata.
 
-It allows in research or audit processes to determine the exact position of where the images that are being processed were taken.
+GPSpicture can be useful in the investigation or audit process to determine the exact location where the images being analyzed were taken.
 
 
 # Prerequisities
