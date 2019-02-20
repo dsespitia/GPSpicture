@@ -65,7 +65,7 @@ def gpsinfo(path):
                 if value[3] == "W":
                     lon = lon * -1
             #Datos de JPG con EXIF version 2.0
-            if value[0] == b'\x02\x00\x00\x00' and (value[1] == "N" or value[1] == "S"):
+            if value[0] == b'\x02\x00\x00\x00':
                 lat = (value[2][0][0] / value[2][0][1]) + (value[2][1][0] / value[2][1][1])
                 lon = (value[4][0][0] / value[4][0][1]) + (value[4][1][0] / value[4][1][1])
                 if value[1] == "S":
